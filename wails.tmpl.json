@@ -1,9 +1,9 @@
 {
   "$schema": "https://wails.io/schemas/v3/config.json",
-  "name": "{{.ProjectName}}",
-  "author": "{{.AuthorName}}",
+  "name": "{{.Name}}",
+  "author": "{{.Name}}",
   "info": {
-    "productName": "{{.ProjectName}}",
+    "productName": "{{.Name}}",
     "productVersion": "1.0.0",
     "productDescription": "SvelteKit Template for Wails v3 with Iconify support"
   },

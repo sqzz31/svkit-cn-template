@@ -43,4 +43,4 @@
 		"typescript-eslint": "^8.20.0",
 		"vite": "^7.0.4"
 	}
-,"author":"{{.AuthorName}}"}
+,"author":"{{.Name}}"}

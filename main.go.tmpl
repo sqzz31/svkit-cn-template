@@ -4,7 +4,7 @@ import (
 	"embed"
 	"log"
 
-	"github.com/wailsapp/v3/pkg/application"
+	"github.com/wailsapp/wails/v3/pkg/application"
 )
 
 // Wails uses Go's native embed package to bundle the frontend assets into the binary.
@@ -17,7 +17,7 @@ func main() {
 
 	// Create application with options
 	wailsApp := application.New(application.Options{
-		Name:        "{{.ProjectName}}",
+		Name:        "{{.Name}}",
 		Description: "SvelteKit Template for Wails v3",
 		Services: []application.Service{
 			application.NewService(app),
@@ -29,7 +29,7 @@ func main() {
 
 	// Create a new window
 	wailsApp.NewWebviewWindowWithOptions(application.WebviewWindowOptions{
-		Title:  "{{.ProjectName}}",
+		Title:  "{{.Name}}",
 		Width:  1024,
 		Height: 768,
 		URL:    "/",
