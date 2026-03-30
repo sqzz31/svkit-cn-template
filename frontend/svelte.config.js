@@ -13,7 +13,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
-			$wails: './wailsjs/go'
+			$wails: './src/lib/wailsjs'
 		}
 	}
 };

@@ -1,7 +1,9 @@
 {
-  "name": "Long name",
+  "name": "SvelteKit Iconify Template",
   "shortname": "svkit-cn-template",
-  "author": "",
-  "description": "Description of the template",
-  "helpurl": "URL for help with the template, eg homepage"
+  "author": "sqzz31",
+  "description": "SvelteKit Template for Wails v3 with Iconify support",
+  "helpurl": "https://github.com/sqzz31/svkit-cn-template",
+  "version": "v3.0.0",
+  "schema": 3
 }

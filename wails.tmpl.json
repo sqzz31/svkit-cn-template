@@ -1,11 +1,17 @@
 {
-  "$schema": "https://wails.io/schemas/config.v2.json",
+  "$schema": "https://wails.io/schemas/v3/config.json",
   "name": "{{.ProjectName}}",
-  "outputfilename": "{{.BinaryName}}",
+  "author": "{{.AuthorName}}",
+  "info": {
+    "productName": "{{.ProjectName}}",
+    "productVersion": "1.0.0",
+    "productDescription": "SvelteKit Template for Wails v3 with Iconify support"
+  },
+  "frontend:dir": "frontend",
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
-  "author": {
-    "name": "{{.AuthorName}}",
-    "email": "{{.AuthorEmail}}"
-  }
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:server:url": "http://localhost:5173",
+  "wailsjs:dir": "./frontend/src/lib/wailsjs"
 }
+
