@@ -147,9 +147,10 @@ out
 .yarn/install-state.gz
 .pnp.*
 
-frontend/wailsjs
+# ここの設定は消しておく
+# frontend/wailsjs
 
 # ignore these, because this repository is template.
-frontend/package.json.md5
-frontend/package-lock.json
-frontend/package.json
+# frontend/package.json.md5
+# frontend/package-lock.json
+# frontend/package.json
